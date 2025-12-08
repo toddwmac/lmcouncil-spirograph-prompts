@@ -27,6 +27,7 @@ jobs:
           node-version: '20'
           cache: 'pnpm'
 
+      # 👇 This step installs pnpm so the runner can use it
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
