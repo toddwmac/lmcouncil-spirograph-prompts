@@ -33,7 +33,10 @@ jobs:
           cache: 'pnpm' # Configures caching for pnpm dependencies
 
       - name: Install dependencies
-        pnpm install --no-frozen-lockfile
+        run: pnpm install
+
+      - name: Check TypeScript
+        run: pnpm run check
 
       - name: Build static site
         run: pnpm run build
