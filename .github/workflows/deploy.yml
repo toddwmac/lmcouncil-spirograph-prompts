@@ -21,25 +21,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v3 # Using the latest recommended version
-        with:
-          version: 9 # Specify your desired pnpm version
-
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'pnpm' # Configures caching for pnpm dependencies
+          cache: 'npm' # Configures caching for npm dependencies
 
       - name: Install dependencies
-        run: pnpm install
+        run: npm ci
 
       - name: Check TypeScript
-        run: pnpm run check
+        run: npm run check
 
       - name: Build static site
-        run: pnpm run build
+        run: npm run build
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
