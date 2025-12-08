@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Spirograph Design Process Documentation</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      var l = window.location;
+      var segmentCount = 1;
+      var pathname = l.pathname.split('/').filter(Boolean);
+      var redirect = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
+      if (pathname[0] !== 'spirograph-manus') {
+        redirect += '/spirograph-manus';
+      }
+      redirect += '/?' + pathname.slice(segmentCount).join('/');
+      l.replace(redirect);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
