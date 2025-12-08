@@ -3,6 +3,7 @@
 A documentation website demonstrating AI collaboration using LMCouncil.ai to optimize prompts for a feature-rich spirograph drawing application. The site showcases how multiple LLMs worked together to create comprehensive specifications for a web-based spirograph tool that traces patterns along user-defined paths.
 
 editing readme to try to push to main and trigger deploy - but I also changed pnpm to npm in the deploy so watch that
+Still trying to get pnpm to run, not sure if it can.
 
 ## 🚀 Live Demo
 
