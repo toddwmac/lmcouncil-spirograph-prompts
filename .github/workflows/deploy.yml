@@ -33,7 +33,7 @@ jobs:
           cache: 'pnpm' # Configures caching for pnpm dependencies
 
       - name: Install dependencies
-        run: pnpm install
+        pnpm install --no-frozen-lockfile
 
       - name: Build static site
         run: pnpm run build
