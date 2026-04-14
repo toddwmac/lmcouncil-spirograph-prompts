@@ -7,7 +7,7 @@ Still trying to get pnpm to run, not sure if it can.
 
 ## 🚀 Live Demo
 
-Visit the live documentation: [https://toddwmac.github.io/spirograph-manus/](https://toddwmac.github.io/lmcouncil-spirograph-prompts/)
+(revising) Visit the live documentation: [https://toddwmac.github.io/spirograph-manus/](https://toddwmac.github.io/lmcouncil-spirograph-prompts/)
 
 ## 📋 Overview
 
